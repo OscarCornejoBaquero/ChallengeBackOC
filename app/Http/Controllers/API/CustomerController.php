@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
+use App\Models\Customer;
 use Illuminate\Http\Request;
 
 class CustomerController extends Controller
@@ -14,7 +15,7 @@ class CustomerController extends Controller
      */
     public function index()
     {
-        //
+        return Customer::all();
     }
 
     /**
@@ -36,7 +37,7 @@ class CustomerController extends Controller
      */
     public function show($id)
     {
-        //
+        return Customer::find($id);
     }
 
     /**
