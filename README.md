@@ -16,6 +16,9 @@ Linkedin: https://www.linkedin.com/in/oscarcornejo89/
 - Crea 2 endpoints de API para cada tabla, el 1ero para toda la colección (todos los datos); eje: api/persona, el 2do para el recurso (un registro en especifico, via su ID); eje: api/persona/1.
 
 ##Informacion de la Aplicación
+- composer install
+- npm install
+- Data Base Name challengBackend
 - Correr las Migraciones y los seeders 
 - La rutas de la API son: 
   - Llamadas generales todos los registros
