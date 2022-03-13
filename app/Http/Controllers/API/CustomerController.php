@@ -37,7 +37,7 @@ class CustomerController extends Controller
      */
     public function show($id)
     {
-        return Customer::find($id);
+        return Customer::findOrFail($id);
     }
 
     /**

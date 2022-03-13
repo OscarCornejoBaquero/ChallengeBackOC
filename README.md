@@ -21,6 +21,6 @@ Linkedin: https://www.linkedin.com/in/oscarcornejo89/
   - Llamadas generales todos los registros
     - api/products
     - api/customers
-  - Llamadas individuales un registro especifico 
-    - api/products/1
-    - api/customers/1
+  - Llamadas individuales un registro especificó 
+    - api/product/1
+    - api/customer/1

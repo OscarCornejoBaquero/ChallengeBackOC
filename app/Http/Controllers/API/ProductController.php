@@ -38,7 +38,7 @@ class ProductController extends Controller
      */
     public function show($id)
     {
-        return Product::find($id);
+        return Product::findOrFail($id);
     }
 
     /**
